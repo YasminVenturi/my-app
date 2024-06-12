@@ -1,8 +1,9 @@
 import { Button, Surface, Text } from "react-native-paper";
+import style from "../config/style";
 
 export default function HomeScreen({ navigation }) {
   return (
-    <Surface>
+    <Surface style={style.container}>
       <Text>Bem vinda(o) ao nosso app</Text>
       <Button
         onPress={() => {

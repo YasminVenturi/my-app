@@ -5,19 +5,17 @@ export default style = StyleSheet.create({
     flex: 1,
     justifyContent: "center",
     alignItems: "center",
-    padding: 16,
+  },
+  innerContainer: {
+    paddingHorizontal: 20,
+    alignSelf: "stretch",
   },
   input: {
-    height: 40,
-    borderColor: "gray",
-    borderWidth: 1,
-    marginBottom: 12,
-    paddingHorizontal: 8,
+    marginBottom: 10,
   },
-  button: {
-    marginTop: 12,
-  },
-  error: {
-    color: "red",
+  modal: {
+    backgroundColor: "white",
+    padding: 20,
+    borderRadius: 10,
   },
 });

@@ -5,7 +5,7 @@ export default function NewsScreen() {
   const [news, setNews] = useState([]);
   useEffect(() => {
     fetch(
-      "https://newsapi.org/v2/top-headlines?country=us&apiKey=YOUR_NEWS_API_KEY"
+      "https://newsapi.org/v2/top-headlines?country=us&apiKey=suWMGGCrV86Hf75ea9u1xK1XdmFWMDZEEve3WwB6eTYTNPnk"
     )
       .then((response) => response.json())
       .then((data) => setNews(data.articles))
